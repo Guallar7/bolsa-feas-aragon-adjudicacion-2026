@@ -143,9 +143,9 @@ a {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
+  grid-template-columns: minmax(0, 1fr) 360px;
   gap: 44px;
-  align-items: end;
+  align-items: center;
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
   padding: 86px 0 64px;
@@ -242,7 +242,7 @@ a {
 
 .status-panel {
   display: block;
-  padding: 24px;
+  padding: 22px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(255, 253, 249, 0.94);
@@ -250,7 +250,7 @@ a {
 }
 
 .panel-kicker {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   color: var(--accent-2);
   font-size: 0.75rem;
   font-weight: 800;
@@ -261,48 +261,44 @@ a {
 .panel-title {
   display: block;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.65rem;
-  line-height: 1.1;
+  font-size: 1.48rem;
+  line-height: 1.12;
   letter-spacing: 0;
 }
 
 .panel-copy {
-  margin-top: 14px;
+  margin-top: 10px;
   color: var(--muted);
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   line-height: 1.55;
 }
 
-.signal-list {
+.impact-list {
   display: grid;
-  gap: 1px;
-  overflow: hidden;
-  margin: 22px 0 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 18px 0 14px;
   padding: 0;
+  list-style: none;
+}
+
+.impact-list li {
+  min-height: 84px;
+  padding: 12px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: var(--line);
-}
-
-.signal-list div {
-  padding: 15px;
   background: #fff;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.35;
 }
 
-.signal-list dt {
+.impact-list span {
   display: block;
   margin-bottom: 5px;
   color: var(--accent);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.28rem;
-  line-height: 1;
-}
-
-.signal-list dd {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.45;
+  font-size: 0.82rem;
+  font-weight: 800;
 }
 
 .panel-link {
