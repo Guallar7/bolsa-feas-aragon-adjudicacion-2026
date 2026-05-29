@@ -16,6 +16,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 64px;
 }
 
 body {
@@ -348,6 +349,10 @@ a {
   padding: 84px 0;
 }
 
+.section[id] {
+  scroll-margin-top: 64px;
+}
+
 .intro-grid,
 .split {
   display: grid;
@@ -639,6 +644,7 @@ p {
 .adjudication-group {
   display: grid;
   grid-template-columns: 250px minmax(0, 1fr);
+  align-items: center;
   gap: 24px;
   padding: 22px;
   border: 1px solid var(--line);
@@ -671,10 +677,15 @@ p {
 .specialty-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
   gap: 8px;
 }
 
 .specialty-list span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
   padding: 7px 10px;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -682,6 +693,7 @@ p {
   color: var(--ink);
   font-size: 0.94rem;
   font-weight: 700;
+  line-height: 1.15;
 }
 
 .specialty-list .affected-item {
