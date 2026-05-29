@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Bolsa FEAS Aragón: qué ha pasado</title>
+  <desc id="desc">Tarjeta social con cronología, impacto asistencial y documentación oficial de los actos centralizados FEAS 2026.</desc>
+  <defs>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0v42" fill="none" stroke="#dfe5dc" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#fffdf9"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity=".72"/>
+  <rect x="54" y="48" width="1092" height="534" rx="18" fill="#f7f4ef" stroke="#ded7ca"/>
+
+  <g transform="translate(94 84)">
+    <circle cx="9" cy="10" r="8" fill="#1c6a63"/>
+    <text x="28" y="16" font-family="Segoe UI, Aptos, sans-serif" font-size="21" font-weight="700" fill="#20201d">Bolsa FEAS Aragón</text>
+  </g>
+
+  <g transform="translate(94 154)">
+    <text font-family="Segoe UI, Aptos, sans-serif" font-size="18" font-weight="800" letter-spacing="4" fill="#b54b36">MAYO-JUNIO 2026</text>
+    <text y="82" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700" fill="#20201d">Qué ha pasado</text>
+    <text y="139" font-family="Segoe UI, Aptos, sans-serif" font-size="30" fill="#56544e">Cronología clara, impacto asistencial y documentación oficial</text>
+    <text y="182" font-family="Segoe UI, Aptos, sans-serif" font-size="26" fill="#69675f">sobre los actos centralizados FEAS y la repetición anunciada.</text>
+  </g>
+
+  <g transform="translate(94 418)">
+    <rect width="276" height="72" rx="36" fill="#1c6a63"/>
+    <text x="34" y="45" font-family="Segoe UI, Aptos, sans-serif" font-size="22" font-weight="800" fill="#fffdf9">Traslados primero</text>
+    <rect x="296" width="312" height="72" rx="36" fill="#fffdf9" stroke="#ded7ca"/>
+    <text x="330" y="45" font-family="Segoe UI, Aptos, sans-serif" font-size="22" font-weight="800" fill="#1c6a63">Difícil cobertura</text>
+    <rect x="628" width="302" height="72" rx="36" fill="#fffdf9" stroke="#ded7ca"/>
+    <text x="662" y="45" font-family="Segoe UI, Aptos, sans-serif" font-size="22" font-weight="800" fill="#1c6a63">Bolsa temporal</text>
+  </g>
+
+  <g transform="translate(826 318)">
+    <circle cx="14" cy="14" r="9" fill="#1c6a63"/>
+    <text x="38" y="22" font-family="Segoe UI, Aptos, sans-serif" font-size="21" font-weight="700" fill="#20201d">Continuidad asistencial</text>
+    <circle cx="14" cy="58" r="9" fill="#c6a24a"/>
+    <text x="38" y="66" font-family="Segoe UI, Aptos, sans-serif" font-size="21" font-weight="700" fill="#20201d">Seguridad jurídica</text>
+    <circle cx="14" cy="102" r="9" fill="#b54b36"/>
+    <text x="38" y="110" font-family="Segoe UI, Aptos, sans-serif" font-size="21" font-weight="700" fill="#20201d">Mala coordinación</text>
+  </g>
+</svg>
