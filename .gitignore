@@ -18,6 +18,7 @@ desktop.ini
 *.log
 .playwright-mcp/
 bolsa-feas-home-*.png
+feas-*.png
 
 # Environment/secrets
 .env
