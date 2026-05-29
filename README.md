@@ -7,7 +7,7 @@ La página principal está en `index.html` y está pensada para publicarse con G
 ## Qué contiene
 
 - Una UI pública, limpia y cronológica para explicar el problema sin sobrecarga visual.
-- Un resumen visual legible sin depender de archivos Markdown.
+- Un resumen visual legible, directo y sin sobrecarga.
 - Un mapa de especialidades y horarios convocados para el acto del 1 de junio de 2026.
 - Documentación oficial descargada desde Aragón, BOA y BOE.
 - Material genérico y anonimizado para compañeros.
