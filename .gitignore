@@ -1,0 +1,28 @@
+# Local/private material
+04_material_individual_david/
+
+# Imported duplicates and working area
+05_archivo_originales_importados/
+90_borradores_y_trabajo/
+
+# Generated/share packages
+01_envio_generico/paquete_generico_anestesistas_hums.zip
+~$*
+
+# Local OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log
+.playwright-mcp/
+bolsa-feas-home-*.png
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Local agent instructions
+agents.md

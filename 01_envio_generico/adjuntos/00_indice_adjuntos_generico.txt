@@ -1,0 +1,19 @@
+Adjuntos genericos para enviar
+
+01_correo_recibido_repeticion_acto_bolsa_feas.pdf
+- Version anonimizada del correo recibido el viernes 29 de mayo de 2026 desde Especialistas Temporales. Se han eliminado el nombre/email del destinatario, el enlace inferior de Gmail y metadatos personales.
+
+02_comunicacion_acto_1_junio_bolsa_feas.pdf
+- Nota explicativa adjunta al correo sobre la repeticion del acto del 1 de junio de 2026.
+
+03_listado_oficial_adjudicaciones_26_mayo_anestesia.pdf
+- Listado oficial publicado por SALUD con las adjudicaciones del acto centralizado de Anestesiologia del 26 de mayo de 2026. Contiene nombres de adjudicatarios porque es el propio listado nominativo oficial.
+
+04_oferta_contratos_temporales_mayo_anestesia.pdf
+- Relacion de contratos ofertados para el acto centralizado de mayo de 2026.
+
+05_criterios_gestion_listas_fea_temporales_2022.pdf
+- Criterios de gestion de las listas FEAS temporales, utiles para resultas, penalizaciones y reglas de oferta.
+
+06_aviso_viernes_29_mayo_salud.pdf
+- Aviso fechado en Zaragoza el 29 de mayo de 2026. En el apartado Bolsa/PIT indica que el lunes 1 de junio, a partir de las 10 horas, va a volver a celebrarse el acto de adjudicacion del dia 26 de mayo de la bolsa FEAS, y enumera las especialidades afectadas por dificil cobertura pendiente, incluida Anestesia.
