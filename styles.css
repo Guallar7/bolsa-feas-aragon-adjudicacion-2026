@@ -27,6 +27,59 @@ body {
   overflow-x: hidden;
 }
 
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 4px;
+  background: rgba(222, 215, 202, 0.45);
+}
+
+.scroll-progress span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left center;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+.section-rail {
+  position: fixed;
+  top: 50%;
+  right: 22px;
+  z-index: 12;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid rgba(222, 215, 202, 0.8);
+  border-radius: 999px;
+  background: rgba(255, 253, 249, 0.76);
+  box-shadow: 0 12px 36px rgba(44, 37, 25, 0.08);
+  transform: translateY(-50%);
+  backdrop-filter: blur(10px);
+}
+
+.section-rail a {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(28, 106, 99, 0.34);
+  border-radius: 999px;
+  background: transparent;
+  text-decoration: none;
+  transition: background 160ms ease, transform 160ms ease, border-color 160ms ease;
+}
+
+.section-rail a:hover,
+.section-rail a.is-active {
+  border-color: var(--accent);
+  background: var(--accent);
+  transform: scale(1.25);
+}
+
 a {
   color: inherit;
 }
@@ -129,6 +182,40 @@ a {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 30px;
+}
+
+.scroll-cue {
+  display: inline-grid;
+  width: 34px;
+  height: 54px;
+  margin-top: 34px;
+  place-items: start center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 253, 249, 0.66);
+  text-decoration: none;
+}
+
+.scroll-cue span {
+  width: 4px;
+  height: 12px;
+  margin-top: 9px;
+  border-radius: 999px;
+  background: var(--accent);
+  animation: cue-slide 1.4s ease-in-out infinite;
+}
+
+@keyframes cue-slide {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+
+  50% {
+    transform: translateY(17px);
+    opacity: 1;
+  }
 }
 
 .button {
@@ -819,6 +906,10 @@ p {
 }
 
 @media (max-width: 640px) {
+  .section-rail {
+    display: none;
+  }
+
   .nav {
     align-items: flex-start;
     flex-direction: column;
