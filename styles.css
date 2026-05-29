@@ -479,6 +479,120 @@ p {
   color: var(--muted);
 }
 
+.causes-section {
+  padding-top: 46px;
+}
+
+.chain-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+  box-shadow: var(--shadow);
+}
+
+.chain-grid article {
+  display: flex;
+  min-height: 280px;
+  flex-direction: column;
+  padding: 22px;
+  background: var(--paper);
+}
+
+.chain-grid span {
+  display: block;
+  margin-bottom: 34px;
+  color: var(--accent-2);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.chain-grid p {
+  color: var(--muted);
+}
+
+.chain-grid a {
+  margin-top: auto;
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.chain-grid a:hover {
+  text-decoration: underline;
+}
+
+.consequence-band {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 28px;
+  margin-top: 16px;
+  padding: 24px;
+  border: 1px solid rgba(181, 75, 54, 0.32);
+  border-radius: 8px;
+  background: #fff7f3;
+}
+
+.consequence-band strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.65rem;
+  line-height: 1.12;
+}
+
+.consequence-band p {
+  color: var(--muted);
+}
+
+.legal-note {
+  margin-top: 18px;
+  padding: 26px;
+  border: 1px solid rgba(28, 106, 99, 0.28);
+  border-radius: 8px;
+  background: #f2f8f6;
+}
+
+.legal-note h3 {
+  max-width: 760px;
+  margin-bottom: 14px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.legal-note p:not(.section-kicker) {
+  max-width: 900px;
+  margin-top: 12px;
+  color: var(--muted);
+}
+
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.legal-links a {
+  padding: 8px 11px;
+  border: 1px solid rgba(28, 106, 99, 0.25);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.legal-links a:hover {
+  border-color: var(--accent);
+}
+
 .adjudications-section {
   padding-top: 38px;
 }
@@ -871,6 +985,7 @@ p {
   .intro-grid,
   .split,
   .pattern-note,
+  .consequence-band,
   .adjudication-group,
   .timeline li {
     grid-template-columns: 1fr;
@@ -881,6 +996,7 @@ p {
   }
 
   .principles,
+  .chain-grid,
   .schedule-board,
   .story-grid,
   .doc-grid,
@@ -954,6 +1070,7 @@ p {
 
   .status-panel,
   .principles,
+  .chain-grid,
   .discovery-strip,
   .schedule-board,
   .story-grid,
