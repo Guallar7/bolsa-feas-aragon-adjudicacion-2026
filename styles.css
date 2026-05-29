@@ -342,6 +342,115 @@ p {
   color: var(--muted);
 }
 
+.adjudications-section {
+  padding-top: 38px;
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 11px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+}
+
+.legend-dot.affected {
+  background: var(--accent);
+}
+
+.legend-dot.not-affected {
+  background: #c6a24a;
+}
+
+.legend-dot.other {
+  background: #9d9a90;
+}
+
+.adjudication-groups {
+  display: grid;
+  gap: 14px;
+}
+
+.adjudication-group {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  gap: 24px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 253, 249, 0.7);
+}
+
+.highlight-group {
+  border-color: rgba(28, 106, 99, 0.36);
+  background: #f0f7f5;
+}
+
+.group-date span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--accent-2);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.group-date strong {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+  line-height: 1.12;
+}
+
+.specialty-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.specialty-list span {
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 0.94rem;
+  font-weight: 700;
+}
+
+.specialty-list .affected-item {
+  border-color: rgba(28, 106, 99, 0.35);
+  color: var(--accent);
+}
+
+.specialty-list .not-affected-item {
+  border-color: rgba(198, 162, 74, 0.55);
+  color: #7d5d13;
+}
+
+.compact-list span {
+  color: var(--muted);
+}
+
 .principles {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -625,6 +734,7 @@ p {
   .intro-grid,
   .split,
   .pattern-note,
+  .adjudication-group,
   .timeline li {
     grid-template-columns: 1fr;
   }
